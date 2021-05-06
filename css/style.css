@@ -711,7 +711,7 @@ body::-webkit-scrollbar {
   width: 100vw;
   height: 80vh;
   background-color: #3592a7;
-  z-index: -50;
+  z-index: 50;
 }
 
 .main3-title {
@@ -1115,7 +1115,7 @@ body::-webkit-scrollbar {
   height: 25px;
   outline: none;
   opacity: 1;
-  -webkit-transition: 0.2s;
+  transition: 0.2s;
   transform: rotate(270deg);
   border-radius: 20px 20px 20px 20px;
   position: relative;
