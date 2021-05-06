@@ -150,7 +150,7 @@ body::-webkit-scrollbar {
 }
 
 .footer {
-  background-color: #3a5160;
+  background: url(../img/main5bg.png);
   width: 100vw;
   height: 250px;
   position: relative;
@@ -160,8 +160,8 @@ body::-webkit-scrollbar {
   font-family: "cwTeXYen", serif !important;
   position: center;
   margin: 0 auto;
-  color: #fff;
-  background-color: #3a5160;
+  color: #685a41;
+  background: url(../img/main5bg.png);
   letter-spacing: 8px;
   line-height: 26px;
 }
@@ -446,7 +446,7 @@ body::-webkit-scrollbar {
 .main2 {
   background: url(../img/bg.jpg);
   width: 100vw;
-  height: 250vh;
+  height: 240vh;
   position: relative;
   z-index: 50;
 }
@@ -711,6 +711,7 @@ body::-webkit-scrollbar {
   width: 100vw;
   height: 80vh;
   background-color: #3592a7;
+  z-index: -50;
 }
 
 .main3-title {
